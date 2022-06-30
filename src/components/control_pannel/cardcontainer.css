@@ -1,0 +1,14 @@
+.cardsmain {
+  display: flex;
+  justify-content: flex-start;
+  scroll-snap-align: start;
+  flex-wrap: wrap;
+  margin-top: 15%;
+  margin-left: 15%;
+}
+.spinnerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,0 +1,16 @@
+body {
+  background-image: url("../../asset/usgs-PtVq35qD-CU-unsplash.jpg");
+  background-size: cover;
+}
+.mainLScontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.sortby {
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+  margin-right: 127px;
+}
