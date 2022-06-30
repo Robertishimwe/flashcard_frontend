@@ -23,6 +23,7 @@ function Login() {
   });
   if (data != null && data !== undefined) {
     localStorage.setItem("token", data?.login?.token);
+    window.location.reload();
   }
   if (loading === true) {
     return <div>Loading...</div>;
@@ -31,6 +32,7 @@ function Login() {
     console.log(error);
     return <div>Something went wrong</div>;
   }
+
   console.log(data);
 
   const btnProps = {
