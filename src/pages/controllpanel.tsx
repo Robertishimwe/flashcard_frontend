@@ -1,10 +1,11 @@
 import React from "react";
 import Controlpannel from "../components/control_pannel/controlpannel";
+import ProtectedHeader from "../components/control_pannel/protectedHeader";
 
 function Controllpanel() {
   return (
     <>
-      <div>controllpanel</div>
+      <ProtectedHeader />
       <Controlpannel />
     </>
   );

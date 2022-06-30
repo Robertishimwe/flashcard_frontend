@@ -14,3 +14,14 @@ body {
   justify-content: flex-end;
   margin-right: 127px;
 }
+.headerLinkContainer {
+  color: white;
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+}
+.headerLinkContainer li {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
